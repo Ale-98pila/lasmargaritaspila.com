@@ -1,0 +1,42 @@
+.reviewBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.review-wrap {
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: rgb(200, 200, 200);
+  padding: 25px;
+  width: 300px;
+  height: 180px;
+  text-decoration: none;
+  color: black;
+}
+.author {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.author-img {
+  float: left;
+  margin-right: 10px;
+  max-width: 40px;
+  transition: filter ease-in-out .3s;
+  margin-bottom: 10px;
+}
+.author-img:hover {
+  filter: brightness(1);
+}
+.author-name {
+  font-weight: 600;
+}
+.rating i {
+  color: gold;
+  padding-right: 2px;
+}
+.review {
+  clear: both;
+  font-size: 14px;
+}
